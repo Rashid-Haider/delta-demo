@@ -1,0 +1,34 @@
+h1{
+    color: yellow;
+    background-color:chocolate;
+    display:inline-flexbox;
+}
+
+
+.card{
+    height: 300px;
+    width: 250px;
+    border: 2px solid red;
+    background-color:black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+    position: relative;
+    height: 180px;
+    width: 100%;
+    bottom: 5px;
+    
+}
+
+p, h3{
+    color: white;
+}
+h3{
+    position: relative;
+    bottom: 10px;
+}
