@@ -3,12 +3,17 @@ h1{
     background-color:chocolate;
     display:inline-flexbox;
 }
-
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px 10px 10px 45px;
+}
 
 .card{
     height: 300px;
     width: 250px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color:black;
     padding: 10px;
     display: flex;
@@ -28,6 +33,7 @@ h1{
 p, h3{
     color: white;
 }
+
 h3{
     position: relative;
     bottom: 10px;
